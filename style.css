@@ -1,0 +1,123 @@
+/* color pallete 
+
+off-white: #f9f5ed
+gold: #c39738
+light slate: #536878
+dark slate: #36454f
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Raleway:wght@300;400&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #f9f5ed;
+}
+
+h1,
+h2,
+h3, .title {
+    font-family: 'Bodoni Moda', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    margin: 100px;
+    border-top: 1px solid #ccc;
+}
+
+.yt-video {
+    box-shadow: 0px 0px 20px #ccc;
+    padding: 20px;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #536878;
+    color: #f9f5ed;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.navbar {
+    background: #36454f;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+}
+
+.navbar-nav li {
+    margin: 0px 10px;
+}
+
+.navbar-nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('pexels-yente-van-eynde-2403392.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.main-content {
+    padding: 100px 50px;
+    margin-top: -100px;
+    background: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.grid .title {
+    font-size: 20px;
+    margin: 20px 0px
+}
+
+footer {
+    background: #36454f;
+    color: #ccc;
+    padding: 50px 0px 0px;
+}
+
+footer .logo {
+    max-width: 300px;
+    margin: 0px auto;
+}
+
+footer .copy {
+    background: #333;
+    padding: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #555;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+    .grid {
+        grid-template-columns: auto;
+    }
+}
